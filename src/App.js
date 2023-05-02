@@ -3,6 +3,7 @@ import HeroSection from "./Components/heroSection";
 import Box from "./Components/box";
 import Investment from "./Components/investment";
 import RoadMap from "./Components/roadMap";
+import Tokenomics from "./Components/tokenomics";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Box></Box>
         <Investment></Investment>
         <RoadMap></RoadMap>
+        <Tokenomics></Tokenomics>
       </section>
     </>
   );
