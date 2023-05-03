@@ -28,8 +28,11 @@
     text-transform: capitalize;
 }
 .text {
-    color: linear-gradient(to right, #dc12fc, #2e36d2);
+    color: transparent;
     background-size: 100%;
+    background-image: linear-gradient(to right, #dc12fc, #2e36d2);
+    background-clip: border-box;
+    -webkit-background-clip: text;
   
 }
 .step{
@@ -45,4 +48,17 @@
 .line{
     box-shadow: 0 0 10px 5px #cb01eb;
 
+}
+
+.faq{
+  color: rgb(255, 255, 255);
+    box-shadow: none;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    position: relative;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    overflow-anchor: none;
+    border: 1px  solid rgb(60, 79, 227);
+    border-radius: 15px;
+        background-color: rgba(255, 255, 255, 0.05);
+    
 }

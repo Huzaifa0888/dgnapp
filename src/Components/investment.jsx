@@ -4,10 +4,10 @@ const Investment = () => {
   return (
     <section className="mt-20 py-10">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div className="">
-          <p className="text-indigo-700 text-center text-[32px] ">
+        <div className="flex justify-center">
+          <span className="text text-center text-[32px] ">
             Take control of your investments
-          </p>
+          </span>
         </div>
 
         <div className="flex justify-between items-center flex-wrap w-full lg:pb-0 pb-8 ">

@@ -4,7 +4,7 @@ module.exports = {
   theme: {
   
     fontFamily: {
-      sans: ['"SansSerifBldFLF"', "sans-serif"],
+      sans: ['"SansSerifBldFLF"', "serif"],
     },
     extend: {},
   },

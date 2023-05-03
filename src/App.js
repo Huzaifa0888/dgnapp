@@ -4,6 +4,8 @@ import Box from "./Components/box";
 import Investment from "./Components/investment";
 import RoadMap from "./Components/roadMap";
 import Tokenomics from "./Components/tokenomics";
+import Faq from "./Components/faq";
+import Footer from "./Components/footer";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Investment></Investment>
         <RoadMap></RoadMap>
         <Tokenomics></Tokenomics>
+        <Faq></Faq>
+        <Footer></Footer>
       </section>
     </>
   );
