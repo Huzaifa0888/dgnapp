@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <section className=" py-10 mt-20">
+      <section className=" pt-10 mt-20">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="flex justify-center items-center lg:space-x-32 md:space-x-32 space-x-16">
             <div className="flex flex-col items-center pb-1 ">
@@ -27,7 +27,7 @@ function Footer() {
           </div>
           <div className="w-full mt-2 border-b border-0.5 border-slate-800"></div>
         </div>
-        <p className="text-white text-center  rounded-md  pt-4 text-md font-bold">
+        <p className="text-white text-center  rounded-md  py-4 text-md font-bold">
           DGNAPP.AI © 2023
         </p>
       </section>

@@ -11,12 +11,12 @@ function HeroSection() {
                 <h2 className=" text-3xl font-extrabold leading-tight text-white lg:w-[70%] md:w-[85%] sm:text-4xl lg:text-[64px]  md:mt-5 lg:leading-tight">
                   Exposure to better data Smarter investing Mitigate risk
                 </h2>
-                <p className="mb-20 text-xl leading-relaxed text-white mt-9 lg:w-[50%]">
+                <p className="lg:mb-20 mb-10 text-xl leading-relaxed text-white lg:mt-9 mt-4 lg:w-[50%]">
                   Developing tools, for micro market cap token investors, by
                   combining blockchain data and AI
                 </p>
 
-                <a href="#" title="" className="btn " role="button ">
+                <a href="#" title="" className="btn mt-4" role="button ">
                   Explore
                 </a>
               </div>

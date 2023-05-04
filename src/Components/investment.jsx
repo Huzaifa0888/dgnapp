@@ -10,11 +10,11 @@ const Investment = () => {
           </span>
         </div>
 
-        <div className="flex justify-between items-center flex-wrap w-full lg:h-80  ">
-          <div className="w-full md:w-5/12 md:pr-6">
+        <div className="flex lg:justify-between lg:flex-row flex-col justify-center items-center flex-wrap w-full lg:h-80  ">
+          <div className="w-full md:w-6/12 md:pr-6">
             <div className="w-11/12 mx-auto ">
               <img
-                className=" md:p-20 lg:p-28"
+                className=" md:p-10 lg:p-28"
                 src="https://www.dgnapp.ai/static/media/description1.acae011bf9a327bd030cf477f07115d5.svg"
                 alt="description1"
               />
@@ -22,9 +22,11 @@ const Investment = () => {
           </div>
           <div className="w-full md:w-7/12 lg:mt-0 ">
             <div className="w-11/12 mx-auto">
-              <p className="text-[#3c4fe3] text-lg font-normal mb-7 ">US.</p>
+              <p className="text-[#3c4fe3] text-lg font-normal lg:mb-7 mb-3 ">
+                US.
+              </p>
               <p className="text-white text-[18px] font-medium">
-                We are in the process of developing our flagship feature:{" "}
+                We are in the process of developing our flagship feature:
                 <span className="font-extrabold">
                   the AI Investment Toolbox
                 </span>
@@ -37,12 +39,12 @@ const Investment = () => {
             </div>
           </div>
         </div>
-        <div className="order  flex justify-between items-center flex-wrap w-full lg:h-80  ">
-          <div className="w-full md:w-7/12 lg:mt-0  order-2 md:order-1 lg:order-1">
+        <div className="order  flex lg:justify-between lg:flex-row flex-col justify-center items-center flex-wrap w-full lg:h-80 ">
+          <div className="w-full md:w-7/12 lg:mt-0  order-2  lg:order-1">
             <div className="w-11/12 mx-auto">
               <p className="text-[#3c4fe3] text-lg font-normal  mb-7 ">YOU.</p>
               <p className="text-white text-[18px] font-medium">
-                We are in the process of developing our flagship feature:{" "}
+                We are in the process of developing our flagship feature:
                 <span className="font-extrabold">
                   the AI Investment Toolbox
                 </span>
@@ -54,21 +56,21 @@ const Investment = () => {
               </p>
             </div>
           </div>
-          <div className="w-full md:w-5/12 md:pr-6 order-1 lg:order-2">
+          <div className="w-full md:w-6/12 md:pr-6 order-1 lg:order-2">
             <div className="w-11/12 mx-auto ">
               <img
-                className=" md:p-20 lg:p-28"
+                className=" md:p-10 lg:p-28"
                 src="https://www.dgnapp.ai/static/media/description2.ba6836ead677022507492dace1f83603.svg"
                 alt="description1"
               />
             </div>
           </div>
         </div>
-        <div className="flex justify-between items-center flex-wrap w-full lg:h-80   ">
-          <div className="w-full md:w-5/12 md:pr-6">
+        <div className="flex   lg:justify-between lg:flex-row flex-col justify-center items-center flex-wrap w-full lg:h-80   ">
+          <div className="w-full md:w-6/12 md:pr-6">
             <div className="w-11/12 mx-auto ">
               <img
-                className=" md:p-20 lg:p-28"
+                className=" md:p-10 lg:p-28"
                 src="https://www.dgnapp.ai/static/media/description1.acae011bf9a327bd030cf477f07115d5.svg"
                 alt="description1"
               />
@@ -78,7 +80,7 @@ const Investment = () => {
             <div className="w-11/12 mx-auto">
               <p className="text-[#3c4fe3] text-lg font-normal mb-7 ">US.</p>
               <p className="text-white text-[18px] font-medium">
-                We are in the process of developing our flagship feature:{" "}
+                We are in the process of developing our flagship feature:
                 <span className="font-extrabold">
                   the AI Investment Toolbox
                 </span>
