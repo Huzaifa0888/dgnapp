@@ -28,7 +28,7 @@ function Tokenomics() {
           </div>
         </div>
 
-        {/* <div
+        <div
           className="lg:flex hidden flex-col items-center 
  justify-start overflow-x-hidden  relative mt-20 h-[550px] "
         >
@@ -104,9 +104,7 @@ function Tokenomics() {
               </div>
             </div>
           </div>
-        </div> */}
-       <section>
-
+        </div>
         <div
           className="flex lg:hidden flex-col items-center 
  justify-center overflow-x-hidden  h-full w-full  relative "
@@ -184,7 +182,6 @@ function Tokenomics() {
             </div>
           </div>
         </div>
-       </section>
       </div>
     </section>
   );
