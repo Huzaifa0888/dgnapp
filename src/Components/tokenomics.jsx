@@ -13,7 +13,9 @@ function Tokenomics() {
           </p>
           <span className="text-white mt-3 text-[18px] flex  font-medium text-center">
             <span className="lg:block hidden"> Token contract: </span>
-            0xd068c7c941fbbd2300cb2f1841858c2643722dc7
+            0xd068c7c941fbbd2300
+          <span className="lg:block md:block sm:block hidden">  cb2f1841858c2643722dc7</span>
+          <span className="lg:hidden md:hidden sm:hidden block">  ..........</span>
           </span>
           <div className="flex justify-center mt-5">
             <a href="#" title="" className="btn text-center" role="button ">
@@ -22,9 +24,9 @@ function Tokenomics() {
           </div>
         </div>
 
-        <div className="flex justify-center overflow-x-hidden mt-20 h-[500px] xl:block lg:hidden">
+        <div className="lg:flex relative justify-center overflow-x-hidden mt-20 h-[500px] hidden">
           <div className="w-full h-[500px] overflow-x-hidden absolute">
-            <div className="overflow-x-hidden top-[85px] right-[90px] relative flex items-center justify-end h-[100px] w-[400px]">
+            <div className="overflow-x-hidden top-[85px] right-[2%] relative flex items-center justify-end h-[100px] w-[400px]">
               <div className="text-white">
                 <p className=" text-center text-gray-600"> Supply</p>
                 <p className="text-center font-bold text-[18px]">
@@ -38,7 +40,7 @@ function Tokenomics() {
             </div>
           </div>
           <div className="w-full h-[500px] overflow-x-hidden absolute">
-            <div className="top-[235px] left-[20px] relative flex items-center justify-end h-[100px] w-[400px]">
+            <div className="top-[235px] left-[6%] relative flex items-center justify-end h-[100px] w-[400px]">
               <div className="text-white">
                 <p className=" text-center text-gray-600"> Taxes</p>
                 <p className="text-center font-bold text-[18px]">
@@ -54,7 +56,7 @@ function Tokenomics() {
             </div>
           </div>
           <div className="w-full h-[500px] overflow-x-hidden absolute ">
-            <div className=" top-[295px] left-[405px] relative   items-center justify-end h-[100px] w-[400px]">
+            <div className=" top-[295px] left-[35%] relative   items-center justify-end h-[100px] w-[400px]">
               <div className=" ml-[200px] top-20 mb-1  border-r-0 border-b-0 border-t-0 w-[20px] border-[1px] border-solid border-[#dc12fc] h-[30px] opacity-50"></div>
 
               <div className=" text-white">
@@ -69,7 +71,7 @@ function Tokenomics() {
             </div>
           </div>
           <div className="w-full h-[500px] overflow-x-hidden absolute">
-            <div className="top-[245px] left-[570px] relative flex items-center justify-end h-[100px] w-[400px]">
+            <div className="top-[240px] left-[47.5%] relative flex items-center justify-end h-[100px] w-[400px]">
               <div className="mr-[20px] border-l-0 border-b-0 w-[20px] border-[1px] border-solid border-[#dc12fc] h-[100px] opacity-50"></div>
 
               <div className="text-white">
@@ -86,7 +88,7 @@ function Tokenomics() {
             </div>
           </div>
           <div className="w-full h-[500px] overflow-x-hidden absolute">
-            <div className="top-[85px] left-[690px] relative flex items-center justify-end h-[100px] w-[400px]">
+            <div className="top-[85px] left-[56%] relative flex items-center justify-end h-[100px] w-[400px]">
               <div className="mr-[20px] border-l-0 border-b-0 w-[20px] border-[1px] border-solid border-[#dc12fc] h-[100px] opacity-50"></div>
 
               <div className="text-white">

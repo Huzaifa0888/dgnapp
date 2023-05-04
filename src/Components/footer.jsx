@@ -5,7 +5,7 @@ function Footer() {
     <>
       <section className=" py-10 mt-20">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-          <div className="flex justify-center items-center space-x-32">
+          <div className="flex justify-center items-center lg:space-x-32 md:space-x-32 space-x-16">
             <div className="flex flex-col items-center pb-1 ">
               <img src="/uniswap.svg" className="w-12  h-12" alt="" />
               <p className="text-white mt-3 text-[14px] font-medium text-center">
