@@ -10,7 +10,7 @@ import Footer from "./Components/footer";
 function App() {
   return (
     <>
-      <section className="font-sans bg-[url('/public/background.jpg')]">
+      <section className="font-sans bg-[url('/public/background.jpg')] bg-cover">
         <Header></Header>
         <HeroSection></HeroSection>
         <Box></Box>

@@ -108,7 +108,7 @@ function RoadMap() {
             </div>
           </div>
           <div class="mt-7 lg:hidden block">
-            <div class="relative ">
+            <div class="relative flex flex-col items-center justify-center">
               <div class="relative pl-8 mb-12 lg:flex even:flex-row-reverse">
                 <div class="absolute top-0 left-0 w-6 h-6 bg-[#cb01eb] border-4 border-[#cb01eb] rounded-full line dark:bg-slate-900 lg:left-1/2 lg:-translate-x-2"></div>
                 <p class="flex text-md tracking-wide text-[#cb01eb] font-bold lg:w-1/2 lg:mt-px  lg:pr-8 lg:text-right">

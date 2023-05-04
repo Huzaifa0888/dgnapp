@@ -105,6 +105,8 @@ function Tokenomics() {
             </div>
           </div>
         </div>
+        <section className="xs:block hidden">
+
         <div
           className="flex lg:hidden flex-col items-center 
  justify-center overflow-x-hidden  h-full w-full  relative "
@@ -182,6 +184,7 @@ function Tokenomics() {
             </div>
           </div>
         </div>
+        </section>
       </div>
     </section>
   );
