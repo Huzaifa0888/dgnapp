@@ -4,7 +4,7 @@ function RoadMap() {
   return (
     <>
       <section className=" py-10">
-        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl mt-28">
           <div className="flex justify-center">
             <span className="text text-center text-[32px] ">Road Map</span>
           </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Investment = () => {
   return (
-    <section className="mt-20 py-10">
+    <section className="mt-28 py-10">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex justify-center">
           <span className="text text-center text-[32px] ">
