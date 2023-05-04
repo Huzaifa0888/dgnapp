@@ -106,85 +106,118 @@ function Tokenomics() {
           </div>
         </div>
         <section className="xs:block hidden">
-
-        <div
-          className="flex lg:hidden flex-col items-center 
+          <div
+            className="flex lg:hidden flex-col items-center 
  justify-center overflow-x-hidden  h-full w-full  relative "
-        >
-          <div className="flex justify-center    w-full h-full        ">
-            <div className="flex space-x-52 absolute left-0  right-60 h-full ">
-              <div className="   flex flex-col w-full items-center   ">
-                <div className=" text-white">
-                  <p className=" text-center text-gray-600"> Supply</p>
-                  <p className="text-center font-bold text-[18px]">
-                    1,000,000,000
-                  </p>
+          >
+            <div className="flex justify-center    w-full h-full        ">
+              <div className="flex space-x-52 absolute left-0  right-60 h-full ">
+                <div className="   flex flex-col w-full items-center   ">
+                  <div className=" text-white">
+                    <p className=" text-center text-gray-600"> Supply</p>
+                    <p className="text-center font-bold text-[18px]">
+                      1,000,000,000
+                    </p>
+                  </div>
+                  <div className=" ml-[20px] border-r-0 border-t-0 w-[20px] border-[1px] border-solid border-[#dc12fc] h-[100px] opacity-50"></div>
                 </div>
-                <div className=" ml-[20px] border-r-0 border-t-0 w-[20px] border-[1px] border-solid border-[#dc12fc] h-[100px] opacity-50"></div>
-              </div>
-              <div className="w-full bottom-3   absolute flex items-center flex-col  h-full ">
-                <div className="text-white w-44  ">
-                  <p className=" text-center text-gray-600"> Taxes</p>
-                  <p className="text-center font-bold text-[18px]">
-                    0% buy fee
-                  </p>
-                  <p className="text-center font-bold text-[18px]">
-                    5% sell fee
-                  </p>
-                  <p className="text-center font-bold text-[18px]">
-                    (2% marketing, 3% burn)
-                  </p>
+                <div className="w-full bottom-3   absolute flex items-center flex-col  h-full ">
+                  <div className="text-white w-44  ">
+                    <p className=" text-center text-gray-600"> Taxes</p>
+                    <p className="text-center font-bold text-[18px]">
+                      0% buy fee
+                    </p>
+                    <p className="text-center font-bold text-[18px]">
+                      5% sell fee
+                    </p>
+                    <p className="text-center font-bold text-[18px]">
+                      (2% marketing, 3% burn)
+                    </p>
+                  </div>
+                  <div className="mr-[20px] border-l-0 border-t-0 w-[20px] border-[1px] border-solid border-[#dc12fc] h-[100px] opacity-50"></div>
                 </div>
-                <div className="mr-[20px] border-l-0 border-t-0 w-[20px] border-[1px] border-solid border-[#dc12fc] h-[100px] opacity-50"></div>
               </div>
             </div>
-          </div>
-          <div className="mt-[130px] mb-[-160px]  overflow-hidden min-  w-[720px]">
-            <img
-              src="/tokenomics.png"
-              alt=""
-              className="transform -rotate-90 scale-50   w-full h-full
+            <div className="mt-[130px] mb-[-160px]  overflow-hidden min-  w-[720px]">
+              <img
+                src="/tokenomics.png"
+                alt=""
+                className="transform -rotate-90 scale-50   w-full h-full
  "
-            />
+              />
+            </div>
+            <div className="  flex justify-center  relative  overflow-hidden  ">
+              <div className="flex items-center justify-center mt-36  relative  w-full flex-col h-full">
+                <div className="ml-[15px] mr-0 border-r-0 border-b-0 mx-auto w-[20px] border-[1px] border-solid border-[#dc12fc] h-[100px] opacity-50"></div>
+
+                <div className="text-white md:w-36 ">
+                  <p className=" text-center text-gray-600"> Allocation</p>
+                  <p className="text-center font-bold text-[18px]">
+                    80% Uniswap
+                  </p>
+                  <p className="text-center font-bold text-[18px]">
+                    10% Team Wallet
+                  </p>
+                  <p className="text-center font-bold text-[18px]">
+                    10% Operation Wallet
+                  </p>
+                </div>
+              </div>
+              <div className=" relative h-full w-full mt-28 left-12 flex items-center flex-col justify-end  ">
+                <div className="ml-[20px] border-r-0 border-b-0 border-t-0 w-[20px] border-[1px] border-solid border-[#dc12fc] h-[100px] opacity-50"></div>
+
+                <div className="text-white">
+                  <p className="text-center font-bold text-[18px]">
+                    Liquidity lock for 1 year
+                  </p>
+                </div>
+              </div>
+
+              <div className=" relative  flex items-center flex-col justify-end w-full h-full ">
+                <div className="flex flex-col items-center justify-center    "></div>
+                <div className="ml-[-20px] mr-0 border-l-0 border-b-0 mx-auto w-[20px] border-[1px] border-solid border-[#dc12fc] h-[100px] opacity-50"></div>
+
+                <div className=" text-white">
+                  <p className=" text-center text-gray-600"> Taxes</p>
+                  <p className="text-center font-bold text-[18px]">Fair</p>
+                  <p className="text-center font-bold text-[18px]">Lunch</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="  flex justify-center  relative  overflow-hidden  ">
-            <div className="flex items-center justify-center mt-36  relative  w-full flex-col h-full">
-              <div className="ml-[15px] mr-0 border-r-0 border-b-0 mx-auto w-[20px] border-[1px] border-solid border-[#dc12fc] h-[100px] opacity-50"></div>
-
-              <div className="text-white md:w-36 ">
-                <p className=" text-center text-gray-600"> Allocation</p>
-                <p className="text-center font-bold text-[18px]">80% Uniswap</p>
-                <p className="text-center font-bold text-[18px]">
-                  10% Team Wallet
-                </p>
-                <p className="text-center font-bold text-[18px]">
-                  10% Operation Wallet
-                </p>
-              </div>
-            </div>
-            <div className=" relative h-full w-full mt-28 left-12 flex items-center flex-col justify-end  ">
-              <div className="ml-[20px] border-r-0 border-b-0 border-t-0 w-[20px] border-[1px] border-solid border-[#dc12fc] h-[100px] opacity-50"></div>
-
-              <div className="text-white">
-                <p className="text-center font-bold text-[18px]">
-                  Liquidity lock for 1 year
-                </p>
-              </div>
-            </div>
-
-            <div className=" relative  flex items-center flex-col justify-end w-full h-full ">
-              <div className="flex flex-col items-center justify-center    "></div>
-              <div className="ml-[-20px] mr-0 border-l-0 border-b-0 mx-auto w-[20px] border-[1px] border-solid border-[#dc12fc] h-[100px] opacity-50"></div>
-
-              <div className=" text-white">
-                <p className=" text-center text-gray-600"> Taxes</p>
-                <p className="text-center font-bold text-[18px]">Fair</p>
-                <p className="text-center font-bold text-[18px]">Lunch</p>
-              </div>
-            </div>
+        </section>
+        <div className="block xs:hidden">
+          <div className=" text-white mt-3">
+            <p className=" text-center text-gray-600"> Supply</p>
+            <p className="text-center font-bold text-[18px]">1,000,000,000</p>
+          </div>
+          <div className="text-white mt-3   ">
+            <p className=" text-center text-gray-600"> Taxes</p>
+            <p className="text-center font-bold text-[18px]">0% buy fee</p>
+            <p className="text-center font-bold text-[18px]">5% sell fee</p>
+            <p className="text-center font-bold text-[18px]">
+              (2% marketing, 3% burn)
+            </p>
+          </div>
+          <div className="text-white mt-3 md:w-36 ">
+            <p className=" text-center text-gray-600"> Allocation</p>
+            <p className="text-center font-bold text-[18px]">80% Uniswap</p>
+            <p className="text-center font-bold text-[18px]">10% Team Wallet</p>
+            <p className="text-center font-bold text-[18px]">
+              10% Operation Wallet
+            </p>
+          </div>
+          <div className="text-white mt-3">
+            <p className="text-center font-bold text-[18px]">
+              Liquidity lock for 1 year
+            </p>
+          </div>
+          <div className=" text-white mt-3">
+            <p className=" text-center text-gray-600"> Taxes</p>
+            <p className="text-center font-bold text-[18px]">Fair</p>
+            <p className="text-center font-bold text-[18px]">Lunch</p>
           </div>
         </div>
-        </section>
       </div>
     </section>
   );

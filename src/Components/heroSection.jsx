@@ -8,7 +8,7 @@ function HeroSection() {
           <div className="grid items-stretch grid-cols-1  gap-x-16 gap-y-12 xl:gap-x-24">
             <div className="flex items-center justify-start  lg:order-1  ">
               <div>
-                <h2 className=" text-3xl font-extrabold leading-tight text-white lg:w-[70%] md:w-[85%] sm:text-4xl lg:text-[64px]   lg:leading-tight">
+                <h2 className=" text-3xl font-extrabold leading-tight text-white lg:w-[70%] md:w-[85%] sm:text-4xl lg:text-[64px] mt-20  lg:leading-tight">
                   Exposure to better data Smarter investing Mitigate risk
                 </h2>
                 <p className="mb-20 text-xl leading-relaxed text-white mt-9 lg:w-[50%]">

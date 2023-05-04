@@ -10,7 +10,7 @@ const Investment = () => {
           </span>
         </div>
 
-        <div className="flex justify-between items-center flex-wrap w-full lg:pb-0 pb-8 ">
+        <div className="flex justify-between items-center flex-wrap w-full lg:h-80  ">
           <div className="w-full md:w-5/12 md:pr-6">
             <div className="w-11/12 mx-auto ">
               <img
@@ -20,7 +20,7 @@ const Investment = () => {
               />
             </div>
           </div>
-          <div className="w-full md:w-7/12 lg:mt-0 mt-6">
+          <div className="w-full md:w-7/12 lg:mt-0 ">
             <div className="w-11/12 mx-auto">
               <p className="text-[#3c4fe3] text-lg font-normal mb-7 ">US.</p>
               <p className="text-white text-[18px] font-medium">
@@ -37,8 +37,8 @@ const Investment = () => {
             </div>
           </div>
         </div>
-        <div className="order  flex justify-between items-center flex-wrap w-full  pb-8 ">
-          <div className="w-full md:w-7/12 lg:mt-0 mt-6 order-2 md:order-1 lg:order-1">
+        <div className="order  flex justify-between items-center flex-wrap w-full lg:h-80  ">
+          <div className="w-full md:w-7/12 lg:mt-0  order-2 md:order-1 lg:order-1">
             <div className="w-11/12 mx-auto">
               <p className="text-[#3c4fe3] text-lg font-normal  mb-7 ">YOU.</p>
               <p className="text-white text-[18px] font-medium">
@@ -64,7 +64,7 @@ const Investment = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between items-center flex-wrap w-full lg:pb-0 pb-8 ">
+        <div className="flex justify-between items-center flex-wrap w-full lg:h-80   ">
           <div className="w-full md:w-5/12 md:pr-6">
             <div className="w-11/12 mx-auto ">
               <img

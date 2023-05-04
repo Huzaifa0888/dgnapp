@@ -3,7 +3,7 @@ import React from "react";
 const Box = () => {
   return (
     <>
-      <div className="py-10 flex flex-col justify-center item-center lg:grid grid-cols-3 md:max-w-3xl  xl:gap-x-52 gap-y-4 w-full pt-10  px-4 mx-auto sm:px-6 lg:px-8 lg:max-w-7xl">
+      <div className="py-10 flex flex-col justify-center item-center lg:grid grid-cols-3 md:max-w-3xl  xl:gap-x-52 gap-y-4 w-full pt-10  px-4 mx-auto sm:px-6 lg:px-8 lg:mt-40 lg:max-w-7xl">
         <div className="mx-auto w-64">
           <div className="rounded-3xl overflow-hidden relative">
             <div className="h-[340px] box p-7">
