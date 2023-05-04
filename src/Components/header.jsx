@@ -39,12 +39,12 @@ export default function Header() {
                     </div>
                   </div>
                   <div className="hidden lg:block">
-                    <div className="ml-10 flex items-baseline space-x-4">
+                    <div className="ml-10 flex items-baseline space-x-9">
                       {navigation.map((item) => (
                         <a
                           key={item.name}
                           href={item.href}
-                          className="text-white  hover:text-[#dc12fc] rounded-md px-3 py-2 text-md font-bold"
+                          className="text-white  hover:text-[#dc12fc] rounded-md  py-2 text-md font-bold"
                         >
                           {item.name}
                         </a>
