@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment,useState,useEffect } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon,  } from "@heroicons/react/24/outline";
 
@@ -18,10 +18,31 @@ function classNames(...classes) {
 }
 
 export default function Header() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      if (isScrolled !== scrolled) {
+        setScrolled(isScrolled);
+      }
+    };
+    document.addEventListener("scroll", handleScroll);
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
+  }, [scrolled]);
   return (
     <>
       <div className="min-h-full ">
-        <Disclosure as="nav" className=" fixed w-full bg-opacity-100">
+        <Disclosure
+          as="nav"
+          className={`scr fixed w-full top-0 z-10 transition-colors ${
+            scrolled
+              ? "  bg-black shadow-md opacity-100"
+              : "bg-transparent"
+          }`}
+        >
           {({ open }) => (
             <>
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
@@ -79,7 +100,7 @@ export default function Header() {
                       leaveFrom="transform opacity-100 scale-100"
                       leaveTo="transform opacity-0 scale-95"
                     >
-                      <Menu.Items className="absolute  z-10 mt-4 w-36 right-[-8px] origin-top-right rounded-md bg-[#000000B3] py-1  shadow-lg  focus:outline-none">
+                      <Menu.Items className="absolute  z-10 mt-4 w-36 right-[-8px] origin-top-right rounded-md bg-[#000000e4] py-1  shadow-lg  focus:outline-none">
                         {navigation.map((item) => (
                           <Menu.Item key={item.name}>
                             {({ active }) => (

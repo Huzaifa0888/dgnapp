@@ -3,7 +3,7 @@
 function HeroSection() {
   return (
     <>
-      <section className="py-10 bg-[url('/public/background.jpg')] min-h-[200px]  lg:pb-[100px] bg-auto bg-center bg-no-repeat lg:py-10">
+      <section className="py-20 bg-[url('/public/background.jpg')] min-h-[200px]  lg:pb-[100px] md:bg-cover   lg:bg-auto bg-center bg-no-repeat lg:py-10">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="grid items-stretch grid-cols-1  gap-x-16 gap-y-12 xl:gap-x-24">
             <div className="flex items-center justify-start lg:h-[700px] lg:order-1  ">

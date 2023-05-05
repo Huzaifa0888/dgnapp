@@ -113,24 +113,24 @@ function Tokenomics() {
             <div className="flex justify-center    w-full h-full        ">
               <div className="flex space-x-52 absolute left-0  right-60 h-full ">
                 <div className="   flex flex-col w-full items-center   ">
-                  <div className=" text-white">
+                  <div className=" text-white ">
                     <p className=" text-center text-gray-600"> Supply</p>
-                    <p className="text-center font-bold text-[18px]">
+                    <p className="text-center font-bold text-[14px] md:text-[17px]">
                       1,000,000,000
                     </p>
                   </div>
                   <div className=" ml-[20px] border-r-0 border-t-0 w-[20px] border-[1px] border-solid border-[#dc12fc] h-[100px] opacity-50"></div>
                 </div>
-                <div className="w-full bottom-3   absolute flex items-center flex-col  h-full ">
+                <div className="w-full bottom-0   absolute flex items-center flex-col  h-full ">
                   <div className="text-white w-44  ">
                     <p className=" text-center text-gray-600"> Taxes</p>
-                    <p className="text-center font-bold text-[18px]">
+                    <p className="text-center font-bold text-[14px] md:text-[17px]">
                       0% buy fee
                     </p>
-                    <p className="text-center font-bold text-[18px]">
+                    <p className="text-center font-bold text-[14px] md:text-[17px]">
                       5% sell fee
                     </p>
-                    <p className="text-center font-bold text-[18px]">
+                    <p className="text-center font-bold text-[14px] md:text-[17px]">
                       (2% marketing, 3% burn)
                     </p>
                   </div>
@@ -152,13 +152,13 @@ function Tokenomics() {
 
                 <div className="text-white md:w-36 ">
                   <p className=" text-center text-gray-600"> Allocation</p>
-                  <p className="text-center font-bold text-[18px]">
+                  <p className="text-center font-bold text-[14px] md:text-[17px]">
                     80% Uniswap
                   </p>
-                  <p className="text-center font-bold text-[18px]">
+                  <p className="text-center font-bold text-[14px] md:text-[17px]">
                     10% Team Wallet
                   </p>
-                  <p className="text-center font-bold text-[18px]">
+                  <p className="text-center font-bold text-[14px] md:text-[17px]">
                     10% Operation Wallet
                   </p>
                 </div>
@@ -167,7 +167,7 @@ function Tokenomics() {
                 <div className="ml-[20px] border-r-0 border-b-0 border-t-0 w-[20px] border-[1px] border-solid border-[#dc12fc] h-[100px] opacity-50"></div>
 
                 <div className="text-white">
-                  <p className="text-center font-bold text-[18px]">
+                  <p className="text-center font-bold text-[14px] md:text-[17px]">
                     Liquidity lock for 1 year
                   </p>
                 </div>
@@ -179,8 +179,8 @@ function Tokenomics() {
 
                 <div className=" text-white">
                   <p className=" text-center text-gray-600"> Taxes</p>
-                  <p className="text-center font-bold text-[18px]">Fair</p>
-                  <p className="text-center font-bold text-[18px]">Lunch</p>
+                  <p className="text-center font-bold text-[14px] md:text-[17px]">Fair</p>
+                  <p className="text-center font-bold text-[14px] md:text-[17px]">Lunch</p>
                 </div>
               </div>
             </div>
