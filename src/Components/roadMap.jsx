@@ -6,7 +6,7 @@ function RoadMap() {
       <section className=" py-10">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl mt-28">
           <div className="flex justify-center">
-            <span className="text text-center text-[32px] ">Road Map</span>
+            <span className="text text-center text-[32px] md:mb-10">Road Map</span>
           </div>
           <div className='lg:block hidden'>
             <div className="px-5">

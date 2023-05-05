@@ -5,7 +5,7 @@ function Tokenomics() {
       <div className="px-4 mx-auto sm:px-6 lg:px-8  max-w-7xl">
         <div className="flex flex-col items-center mt-10 mb-20">
           <span className=" text-center text-[32px] text ">Tokenomics</span>
-          <p className="text-white mt-4 text-[18px] font-medium text-center">
+          <p className="text-white mt-10 text-[18px] font-medium text-center">
             Token name: DGNAPP.AI
           </p>
           <p className="text-white mt-3 text-[18px] font-medium text-center">
