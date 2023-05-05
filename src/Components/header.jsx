@@ -37,9 +37,9 @@ export default function Header() {
       <div className="min-h-full ">
         <Disclosure
           as="nav"
-          className={`scr fixed w-full top-0 z-10 transition-colors ${
+          className={` fixed w-full top-0 z-10 transition-colors ${
             scrolled
-              ? "  bg-black shadow-md opacity-100"
+              ? "  bg-[#000000ea] shadow-md opacity-100"
               : "bg-transparent"
           }`}
         >
@@ -85,7 +85,7 @@ export default function Header() {
                       </a>
                     </div>
                   </div>
-                  <Menu as="div" className="relative ml-3 lg:hidden md:block">
+                  <Menu as="div" className="relative ml-3 lg:hidden md:block ">
                     <div>
                       <Menu.Button className="flex max-w-xs text-white items-center rounded-full ">
                         <Bars3Icon className="text-white w-10" />
