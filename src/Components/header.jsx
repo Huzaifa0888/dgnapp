@@ -1,15 +1,17 @@
 import { Fragment,useState,useEffect } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon,  } from "@heroicons/react/24/outline";
+import { Link } from "react-scroll";
+
 
 
 const navigation = [
-  { name: "APP", href: "#",  },
-  { name: "ABOUT", href: "#",  },
-  { name: "ROAD MAP", href: "#",  },
-  { name: "TOKENOMICS", href: "#",  },
-  { name: "FAQS", href: "#",  },
-  { name: "WHITEPAPER", href: "#",  },
+  { name: "APP", href: "#", },
+  { name: "ABOUT", href: "#", section: "about" },
+  { name: "ROAD MAP", href: "#", section: "roadmap" },
+  { name: "TOKENOMICS", href: "#", section: "tokenomics" },
+  { name: "FAQS", href: "#", section: "faqs" },
+  { name: "WHITEPAPER", href: "#" },
 ];
 
 
@@ -18,6 +20,7 @@ function classNames(...classes) {
 }
 
 export default function Header() {
+  
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -62,13 +65,15 @@ export default function Header() {
                   <div className="hidden lg:block">
                     <div className="ml-10 flex items-baseline space-x-9">
                       {navigation.map((item) => (
-                        <a
-                          key={item.name}
-                          href={item.href}
-                          className="text-white  hover:text-[#dc12fc] rounded-md  py-2 text-md font-bold"
-                        >
-                          {item.name}
-                        </a>
+                        <Link to={item.section} smooth={true} duration={700}>
+                          <a
+                            key={item.name}
+                            href={item.href}
+                            className="text-white  hover:text-[#dc12fc] rounded-md  py-2 text-md font-bold"
+                          >
+                            {item.name}
+                          </a>
+                        </Link>
                       ))}
                     </div>
                   </div>

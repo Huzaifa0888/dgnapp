@@ -3,12 +3,14 @@ import React from 'react'
 function RoadMap() {
   return (
     <>
-      <section className=" py-10">
+      <section id="roadmap" className=" py-10">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl mt-28">
           <div className="flex justify-center">
-            <span className="text text-center text-[32px] md:mb-10">Road Map</span>
+            <span className="text text-center text-[32px] md:mb-10">
+              Road Map
+            </span>
           </div>
-          <div className='lg:block hidden'>
+          <div className="lg:block hidden">
             <div className="px-5">
               <div className="relative max-w-xl mx-auto my-16 lg:max-w-3xl before:absolute before:top-0 before:w-1 before:h-full before:left-2 before:bg-[#cb01eb] lg:before:left-1/2">
                 <div className="relative pl-8 mb-12 lg:flex even:flex-row-reverse">

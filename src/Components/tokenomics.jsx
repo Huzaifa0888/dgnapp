@@ -1,7 +1,7 @@
 
 function Tokenomics() {
   return (
-    <section className=" py-10 overflow-hidden">
+    <section id="tokenomics" className=" py-10 overflow-hidden">
       <div className="px-4 mx-auto sm:px-6 lg:px-8  max-w-7xl">
         <div className="flex flex-col items-center mt-10 mb-20">
           <span className=" text-center text-[32px] text ">Tokenomics</span>
@@ -179,8 +179,12 @@ function Tokenomics() {
 
                 <div className=" text-white">
                   <p className=" text-center text-gray-600"> Taxes</p>
-                  <p className="text-center font-bold text-[14px] md:text-[17px]">Fair</p>
-                  <p className="text-center font-bold text-[14px] md:text-[17px]">Lunch</p>
+                  <p className="text-center font-bold text-[14px] md:text-[17px]">
+                    Fair
+                  </p>
+                  <p className="text-center font-bold text-[14px] md:text-[17px]">
+                    Lunch
+                  </p>
                 </div>
               </div>
             </div>
