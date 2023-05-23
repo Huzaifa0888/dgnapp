@@ -10,11 +10,7 @@ const Box = () => {
         <div className="mx-auto w-64">
           <div className="rounded-3xl overflow-hidden relative">
             <div className="h-[340px] box p-7">
-              <img
-                className="w-full"
-                src="https://www.dgnapp.ai/static/media/benefit1.7bdfca10831b54695ca35d9c74263514.svg"
-                alt="benefit1"
-              />
+              <img className="w-full" src="/description.svg" alt="benefit1" />
               <p className="text-sm  text-white text-center font-semibold mt-6">
                 Smart solutions for micro market cap investors
               </p>
@@ -25,11 +21,7 @@ const Box = () => {
         <div className="w-64 mx-auto ">
           <div className="rounded-3xl overflow-hidden relative">
             <div className="h-[340px] box p-7">
-              <img
-                className="w-full"
-                src="https://www.dgnapp.ai/static/media/benefit2.0fb687fd7c806b4b2434b567803e0f11.svg"
-                alt="benefit2"
-              />
+              <img className="w-full" src="/description1.svg" alt="benefit2" />
               <p className="text-sm text-white text-center font-semibold mt-6">
                 Unique blockchain data reports of micro cap tokens
               </p>
@@ -40,11 +32,7 @@ const Box = () => {
         <div className="mx-auto w-64 ">
           <div className="rounded-3xl overflow-hidden relative">
             <div className="box p-7 h-[340px]">
-              <img
-                className="w-full"
-                src="https://www.dgnapp.ai/static/media/benefit3.31b6a62cc098b7677154f9444b4880cb.svg"
-                alt="benefit3"
-              />
+              <img className="w-full" src="/description2.svg" alt="benefit3" />
               <p className="text-sm text-white text-center font-semibold mt-6">
                 Machine learning to help avoid scams
               </p>

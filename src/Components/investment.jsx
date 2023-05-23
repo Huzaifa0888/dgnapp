@@ -15,7 +15,7 @@ const Investment = () => {
             <div className="w-11/12 mx-auto ">
               <img
                 className=" md:p-0 lg:p-28"
-                src="https://www.dgnapp.ai/static/media/description1.acae011bf9a327bd030cf477f07115d5.svg"
+                src="/description.svg"
                 alt="description1"
               />
             </div>
@@ -60,7 +60,7 @@ const Investment = () => {
             <div className="w-11/12 mx-auto ">
               <img
                 className=" md:p-0 lg:p-28"
-                src="https://www.dgnapp.ai/static/media/description2.ba6836ead677022507492dace1f83603.svg"
+                src="/description1.svg"
                 alt="description1"
               />
             </div>
@@ -71,7 +71,7 @@ const Investment = () => {
             <div className="w-11/12 mx-auto ">
               <img
                 className=" md:p-0 lg:p-28"
-                src="https://www.dgnapp.ai/static/media/description1.acae011bf9a327bd030cf477f07115d5.svg"
+                src="/description2.svg"
                 alt="description1"
               />
             </div>

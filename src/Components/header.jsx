@@ -106,18 +106,21 @@ export default function Header() {
                       leaveTo="transform opacity-0 scale-95"
                     >
                       <Menu.Items className="absolute  z-10 mt-4 w-36 right-[-8px] origin-top-right rounded-md bg-[#000000e4] py-1  shadow-lg  focus:outline-none">
-                        {navigation.map((item) => (
-                          <Menu.Item key={item.name}>
-                            {({ active }) => (
-                              <a
-                                href={item.href}
-                                className="block px-4 py-2 text-md text-[#FFFFFF]"
-                              >
-                                {item.name}
-                              </a>
-                            )}
-                          </Menu.Item>
-                        ))}
+                          {navigation.map((item) => (
+                        <Link to={item.section} smooth={true} duration={700}>
+
+                            <Menu.Item key={item.name}>
+                              {({ active }) => (
+                                <a
+                                  href={item.href}
+                                  className="block px-4 py-2 text-md text-[#FFFFFF]"
+                                >
+                                  {item.name}
+                                </a>
+                              )}
+                            </Menu.Item>
+                        </Link>
+                          ))}
                       </Menu.Items>
                     </Transition>
                   </Menu>
